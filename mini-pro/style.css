@@ -1,0 +1,127 @@
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    text-align: center;
+    color: #043441;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-style: inherit;
+}
+
+.top {
+    overflow: hidden;
+    background-color: #1a89a5;
+}
+
+.top a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 70px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top a:hover {
+    background-color: rgb(146, 190, 216);
+    color: rgb(51, 48, 48);
+}
+
+.top a.active {
+    background-color: #085669;
+    color: rgb(194, 194, 194);
+}
+
+.search-container form {
+    position: relative;
+}
+
+.top input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.search-container form button {
+    position: absolute;
+    float: right;
+    height: 100%;
+    width: 50px;
+    padding: 8px 12px;
+    background: transparent;
+    border: transparent;
+    font-size: 18px;
+    background: #ddd;
+    color: #09070e;
+    cursor: pointer;
+    outline: 1;
+}
+
+input[type=text]:focus {
+    width: 20%
+}
+
+h2 {
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-family: serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+}
+
+img {
+    color: #09070e;
+    border-radius: 0px;
+}
+
+.footer {
+    background-color: #122930;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}

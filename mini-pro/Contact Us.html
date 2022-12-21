@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="uft-8">
+    <title>Contact Info</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        body {
+            border: 1px;
+            border-radius: 2px;
+            min-height: 100vh;
+            background-color: rgb(216, 130, 183);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contact-selection {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .contactInfo {
+            color: #fff;
+            max-height: 500px;
+            line-height: 65px;
+            padding-left: 50px;
+            font-size: 18px;
+        }
+        
+        .contactInfo i {
+            margin-right: 20px;
+            font-size: 25px;
+        }
+        
+        .contact-form {
+            max-width: 700px;
+            margin-right: 50px;
+        }
+        
+        .contactInfo .contact-form {
+            flex: 1;
+        }
+        
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        
+        .text-box {
+            background: rgba(112, 90, 90, 0);
+            color: #fff;
+            border: none;
+            width: calc(50%-10px);
+            height: 50px;
+            padding: 12px;
+            font-size: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0.1);
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .text-box:first-child {
+            margin-right: 15px;
+        }
+        
+        textarea {
+            background: #0000;
+            color: #fff;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            font-size: 15px;
+            min-height: 200px;
+            max-height: 400px;
+            resize: vertical;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0.1);
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .send-btn {
+            float: right;
+            background: #2E94E3;
+            color: #fff;
+            border: none;
+            width: 120px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        
+        .send-btn:hover {
+            background-image: url('./pics/contact.jpg');
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="contact-selection">
+        <div class="contactInfo">
+            <div><i class="fas fa-map-marker-alt"></i>N0,30 Sius Road,Colombo,Srilanka</div>
+            <div><i class="fas fa-envelope"></i>oceanpsl7@gmail.com</div>
+            <div><i class="fas fa-phone"></i>+45 777 22 33</div>
+            <div><i class="fas fa-clock"></i>Mon - Fri 9:00 AM to 5:00 PM</div>
+        </div>
+        <div class="contact-form"></div>
+        <h2 font-color="#fff">Contact Us </h2>
+        </br>
+        <form class="contact" action="" method="post">
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placehloder="Your Email" required></br>
+            <textarea name="message" rows="S" placeholder="Your Message" required></textarea>
+            <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+    </div>
+
+</body>
+
+</html>
